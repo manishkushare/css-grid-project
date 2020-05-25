@@ -67,6 +67,11 @@
     a:hover {
         color: wheat;
     }
+    
+}
+
+.active > a{
+    color: wheat;
 }
 .toggle,
 .bars{
@@ -111,6 +116,9 @@
         }
         .nav-menu {
             padding: 2rem 0;
+            // .active {
+            //     color: wheat !important;
+            // }
             .menu-list {
                 padding: 1rem 0;
                 a{

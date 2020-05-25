@@ -93,10 +93,6 @@ body {
   border: 0;
 }
 
-.active a {
-  color: wheat;
-}
-
 .header {
   position: fixed !important;
   left: 0;
@@ -133,6 +129,10 @@ body {
 }
 
 .menu-list a:hover {
+  color: wheat;
+}
+
+.active > a {
   color: wheat;
 }
 
