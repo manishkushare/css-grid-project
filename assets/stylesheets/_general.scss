@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn {
+    outline: 0;
+    border: 0;
+}
+.active a {
+    color: wheat;
+}

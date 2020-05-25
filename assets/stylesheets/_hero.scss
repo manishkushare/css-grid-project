@@ -1,0 +1,75 @@
+.hero {
+        // height: 500px;
+    .hero-image {
+        grid-column: span 2;
+        background: url(../media/images/home-img.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        // height: 500px;
+        height: 110vh;
+    }
+    .hero-info {
+        grid-column: span 2;
+        button {
+            background-color: transparent;
+            border: 2px solid #273131;
+            border-radius: 1rem;
+            padding: 0.5rem 1.5rem;
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #333C3B;
+                font-weight: 700;
+                font-size: 0.65rem;
+            }
+        }
+    }
+
+}
+
+.hero-info {
+    background-color: #F5E3D7;
+    padding: 12rem 2rem 1rem 2rem;
+    justify-content: center;
+    align-items: center ;
+    h2 {
+        color: #B5AFAB;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+    }
+    h3 {
+        color: #444343;
+        font-size: 2.1rem;
+        padding: 1.5rem 0;
+        line-height: 1.5;
+    }
+    p{
+        color: #B4AEA9;
+        font-size: 0.6rem;
+        line-height: 1.5;
+        padding-bottom: 1.5rem;
+    }
+}
+
+// responsive
+
+@media screen and (max-width:768px) {
+    .hero {
+        .container-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    .hero-info {
+        padding: 2rem 2rem !important;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:800px) {
+    .hero-info {
+        padding: 10rem 2rem 4rem 2rem !important;
+        
+    }
+    .hero-image {
+        height: 43vh !important;
+    }
+}

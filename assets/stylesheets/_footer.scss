@@ -1,0 +1,30 @@
+.footer {
+    padding: 4rem 0;
+    .small {
+        text-align: center;
+        font-size: 0.8rem;
+        color: #DEDEDE;
+        span {
+            color: #F7DDB4;
+            margin-left: 0.5rem;
+        }
+    }
+
+}
+.footer-logo {
+    text-align: center;
+    padding: 2rem 0 ;
+    a {
+        color: #9A9A9A;
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
+    
+}
+
+// responsive
+// .footer{
+//     .container{
+//         padding: 0 2rem;
+//     }
+// }

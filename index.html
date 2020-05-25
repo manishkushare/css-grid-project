@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-GRID | PROJECT</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css ">
+
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container flex">
+            <h1 class="header-brand">
+                <a href="#">Stimulus</a>
+            </h1>
+            <input type="checkbox" class="toggle" id="toggle">
+            <label for="toggle" class="bars"><i class="fas fa-bars"></i></label>
+            <nav class="nav">
+                <ul class="nav-menu flex">
+                    <li class="menu-list active"><a href="#">home</a></li>
+                    <li class="menu-list"><a href="#about">about me</a></li>
+                    <li class="menu-list"><a href="#experiences">experiences</a></li>
+                    <li class="menu-list"><a href="#testimonial">testimonial</a></li>
+                    <li class="menu-list"><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+        <article class="container-grid">
+            <div class="hero-image">
+            
+            </div>
+            <div class="hero-info">
+                <h2>Welcome to my website</h2>
+                <h3>Hello, I am <strong>Stimulus</strong> currently based in New York city.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ut accusamus quam ullam! Sequi laborum placeat et corrupti omnis, itaque tenetur ipsum consectetur molestias aut tempore cumque. Eligendi, unde impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rem voluptatem reiciendis ipsum placeat.</p>
+                <button class="btn" type=""><a href="#">get started</a></button>
+            </div>
+        </article>
+        
+    </section>
+
+    <!--skills  -->
+    <section class="skills" id="about">
+        <article class="container-grid">
+            <div class="skills-description padding">
+                <h2>Donec auctor</h2>
+                <h3>Sed vulputate vitae diam quis bibendum</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia aut consectetur dicta esse aspernatur rem, quae molestias nisi, mollitia repellendus tempore quia eos id praesentium, obcaecati beatae laudantium reprehenderit ei</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur assumenda placeat qui, repellendus eos quasi laborum obcaecati nostrum, voluptatem laboriosam nam, accusantium facere.</p>
+            </div>
+            <div class="skills-image">
+
+            </div>
+            <div class="skills-progress padding">
+                <h2>My Skills</h2>
+                <h3>Photoshop. HTML CSS JS. Web Design</h3>
+                <div class="progress-item">
+                    <div class="custom-progress flex">
+                        <h4>Frontend Design</h4>
+                        <p>90%</p>
+                    </div>
+                    <progress value="90" max="100"></progress>
+                </div>
+                <div class="progress-item">
+                    <div class="flex">
+                        <h4>Backend processing</h4>
+                        <p>70%</p>
+                    </div>
+                    <progress value="70" max="100"></progress>
+                </div>
+                <div class="progress-item">
+                    <div class="flex">
+                        <h4>HTML5 & CSS3</h4>
+                        <p>80%</p>
+                    </div>
+                    <progress value="80" max="100"></progress>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- Domain -->
+
+    <section class="domain" id="testimonial">
+        <div class="container-grid">
+            <div class="interface-design padding">
+                <span class="logo"><i class="fas fa-desktop"></i></span>
+                <h2>Interface Design</h2>
+                <p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+            </div>
+            <div class="telegram padding">
+                <span><i class="fab fa-telegram-plane"></i></span>
+                <h2>Interface Design</h2>
+                <p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+            </div>
+            <div class="calender padding">
+                <span><i class="fas fa-calendar-alt"></i></span>
+                <h2>Interface Design</h2>
+                <p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+            </div>
+            <div class="css padding">
+                <span><i class="fab fa-css3-alt"></i></span>
+                <h2>Interface Design</h2>
+                <p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- experience section -->
+
+    <section class="experience" id="experiences">
+        <div class="container-grid">
+            <div class="experience-image">
+
+            </div>
+            <div class="experience-info padding">
+                <h2>My Experiences</h2>
+                <h3>Previous companies and my task</h3>
+                <div class="previous-experience flex">
+                    <span class="laptop"><i class="fas fa-laptop"></i></span>
+                    <div class="experience-description">
+                        <h4>Graphic Designer<span>2014 Jul- 2015 Sep</span></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="previous-experience flex">
+                    <span class="laptop"><i class="fas fa-laptop"></i></span>
+                    <div class="experience-description">
+                        <h4>Web Designer<span>2015 Oct- 2017 Jan</span></h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+
+    <section class="education" id="education">
+        <div class="container-grid">
+            <div class="education-image">
+
+            </div>
+            <div class="education-info padding">
+                <h2>My Education</h2>
+                <h3>In cursus orci ipsum gravita dignissim</h3>
+                <div class="education-details flex">
+                    <span class="laptop"><i class="fas fa-laptop"></i></span>
+                    <div class="education-description">
+                        <h4>Master in Design<span>2012 Jan- 2014 May</span></h4>
+                        <p>Etiam iaculis elit in mauris ullamcorper auctor. Proin sapien id orci ullamcopper disgnissim wu in neque</p>
+                    </div>
+                </div>
+                <div class="education-details flex">
+                    <span class="laptop"><i class="fas fa-laptop"></i></span>
+                    <div class="education-description">
+                        <h4>Batchelors of Arts<span>2008 May- 2011 Dec</span></h4>
+                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetuer ridiculus mus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="container-grid">
+            <div class="hello padding">
+
+                <form class="form" onsubmit="handleForm(event)">
+                    <legend>Say Hello...</legend>
+                    <p>Integer ut consectetur est. In curses orci non ipsum gravida dignissim</p>
+                    <input type="name" placeholder="Your Name" class="form-name">
+                    <input type="email" placeholder="Your Email" class="form-email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write your message... " class="text-area"></textarea>
+                    <button class="btn form-btn" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="contact-image">
+
+            </div>
+            <div class="contact-info padding">
+                <h2>Visit my office</h2>
+                <address>456 New Street 22000, New York City,USA</address>
+                <h3>Contact.</h3>
+                <div class="number">
+                    <span><i class="fas fa-phone-alt"></i></span>
+                    <a href="tel:01-0110-0220">01-0110-0220</a>
+                </div>
+                <div class="email">
+                    <span><i class="fas fa-envelope-square"></i></span>
+                    <a href="mailto:hello@company.co">hello@company.co</a>
+                </div>
+                <div class="website">
+                    <span><i class="fas fa-globe-asia"></i></span>
+                    <a href="#">company.co</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- map -->
+    <section class="map">
+        <div class="container-grid">
+            <div class="show-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3375.919684034422!2d76.35140455014776!3d32.20639478105566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1590206139615!5m2!1sen!2sin" width="600" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="small">
+                Copyright &copy; 2016 Your Compnay | Design :<span>templatemo</span>
+            </div>
+            <div class="footer-logo">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div> 
+
+    </footer>
+
+    <!-- script js -->
+    <script src="assets/main.js">
+    </script>
+</body>
+</html>

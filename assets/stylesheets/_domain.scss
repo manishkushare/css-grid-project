@@ -1,0 +1,89 @@
+// .domain {
+//     .container-grid {
+//         &:nth-child(1),
+//         &:nth-child(2) {
+
+        
+        
+//             display: grid;
+//             justify-content: center;
+//             align-items: center;
+//             padding: 2rem 0;
+//         }
+//     }
+// }
+.domain {
+    // margin: 2rem 0;
+    span {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 2rem;
+        color: white;
+        
+    }
+    h2 {
+        text-align: center;
+        padding: 1rem 0;
+        // color: #CFCFCF;
+        font-size: 1.3rem;
+    }
+    p {
+        text-align: center;
+        padding-bottom: 2rem;
+        line-height: 1.5;
+        // color: #FABCA8;
+        font-size: 0.9rem;
+    }
+}
+
+.domain {
+    .interface-design {
+        background-color: #ECAF4D;
+        p{
+            color: #F8E2C0 !important;
+        }
+        h2{
+            color: #FDF6EC;
+        }
+    }
+    .telegram{
+        background-color: #F4663D;
+        p{
+            color: #F8A78F !important;
+        }
+        h2{
+            color: #FABFAD;
+        }
+    }
+    .calender{
+        background-color: #161616;
+        p{
+            color: #CBCBCB;
+        }
+        h2 {
+            color: #BDBDBD;
+        }
+    }
+}
+.css {
+    span {
+        color: black !important;
+    }
+    h2 {
+        color: black;
+    }
+    p{
+        color: #C9C9C9 !important;
+    }
+}
+
+
+// responsive 
+@media screen and (max-width:768px) {
+    .domain {
+        .container-grid {
+            grid-template-columns: 1fr;            
+        }
+    }
+}
