@@ -40,7 +40,7 @@
     top: 0;
     right: 0;
     padding: 1rem 0;
-    background-color: burlywood;
+    // background-color: burlywood;
     a {
         text-decoration: none;
     }
@@ -65,13 +65,13 @@
         font-size: 13px;
     }
     a:hover {
-        color: wheat;
+        color: white;
     }
     
 }
 
 .active > a{
-    color: wheat;
+   color: white;
 }
 .toggle,
 .bars{

@@ -59,6 +59,7 @@ table {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .flex {
@@ -99,7 +100,6 @@ body {
   top: 0;
   right: 0;
   padding: 1rem 0;
-  background-color: burlywood;
 }
 
 .header a {
@@ -129,11 +129,11 @@ body {
 }
 
 .menu-list a:hover {
-  color: wheat;
+  color: white;
 }
 
 .active > a {
-  color: wheat;
+  color: white;
 }
 
 .toggle,
